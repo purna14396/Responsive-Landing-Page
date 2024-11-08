@@ -11,8 +11,7 @@ A clean, simple, and fully responsive landing page designed to showcase informat
 
 ## 📸 Screenshots
 
-![Desktop View](screenshots/desktop-view.png)
-![Mobile View](screenshots/mobile-view.png)
+![Screenshot 2024-11-08 201243](https://github.com/user-attachments/assets/7b9c21e7-e7fb-41d5-8561-7571e5723993)
 
 ## 💻 Technologies Used
 
