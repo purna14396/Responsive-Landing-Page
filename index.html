@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    
+    <div id="main">
+        <div class="container">
+            
+            <!-- nav bar -->
+            <nav>
+                <img src="./img/logo.png" class="logo" alt="text">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    
+                    <li><button class="btn btn-secondary">9392256596</button></li>
+                </ul>
+                <img src="./img/menu.svg" alt="" class="menu-btn">
+            </nav>
+            
+            <div class="main-content">
+                <h1 class="intro-heading">we all love</h1>
+                <h1 class="main-heading">nature</h1>
+                
+                <p>Look deep into nature, and you will understand everything better.</p>
+                <button class="btn btn-primary">Get started</button>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <section id="services">
+        <div class="container">
+            
+            <div class="section-title">
+                <h1>Our Services</h1>
+                <div class="line"></div>
+            </div>
+            
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-1.png" alt="">
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro assumenda magni saepe nostrum aut esse, neque sit eligendi, ab labore quos vero in. Amet, neque. Praesentium eum ullam expedita maxime.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-2.png" alt="">
+                    <h3>Graphic design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro assumenda magni saepe nostrum aut esse, neque sit eligendi, ab labore quos vero in. Amet, neque. Praesentium eum ullam expedita maxime.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-3.png" alt="">
+                    <h3>Content creation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro assumenda magni saepe nostrum aut esse, neque sit eligendi, ab labore quos vero in. Amet, neque. Praesentium eum ullam expedita maxime.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    
+    <section id="testimonial">
+        <div class="container">
+            <img src="./img/quote.png" alt="">
+            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsa, voluptatem blanditiis nostrum est fuga praesentium harum qui enim architecto soluta quasi alias atque ex maiores voluptates quibusdam eaque. Rerum!</h1>
+            <div class="profile">
+                <img src="./img/profile.png" alt="">
+                <h4>Jane miller</h4>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae corrupti quod perspiciatis cupiditate facere architecto ut doloremque quos adipisci eaque esse ratione, dolores neque eius reprehenderit laborum eos odit aliquid?</p>
+                <button class="btn btn-primary">Let's talk now...</button>
+            </div>
+            <div class="about-image">
+                <img src="./img/about.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id="questions">
+        <div class="container">
+            <h1>Questions..</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non dolore numquam excepturi possimus repellendus distinctio quam? Nam, porro. Sint id repudiandae pariatur quis eius commodi fugiat ea harum provident et?</p>
+            <button class="btn btn-primary">Let's talk now...</button>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+            <img src="./img/logo-colored.png" alt="" class="footer-logo">
+            <p>. . . Love Nature . . .</p>
+        </div>
+    </footer>
+    
+    <script>
+        const navbtn = document.querySelector(".menu-btn")
+        const navlist = document.querySelector(".nav-list")
+        
+        navbtn.addEventListener("click" , function(){
+            navlist.classList.toggle("active")
+        })
+    </script>
+    
+</body>
+</html>
